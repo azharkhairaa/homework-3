@@ -22,7 +22,7 @@
   
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -48,9 +48,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Buscar"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -104,139 +104,42 @@
 <blockquote>
 <p><img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/29103472_345418835959504_4504134698691198976_n.jpg?oh=5a5d5a8e26e6be5ae4af7ea4aac5b9b5&amp;oe=5B08132D" alt=""></p>
 </blockquote>
-<!-- > Apakah saya sudah menyebutkan pentingnya JavaScript?
-
-Kami akan banyak menjumpai artikel ini - yang menurut saya menggarisbawahi pentingnya hal tersebut.
-
-Inilah salah satu bagian dari pengembangan web yang memancar: Kerangka kerja frontend seperti Angular, React atau Vue.js didukung sepenuhnya oleh (sisi klien) JavaScript.
-
-Kerangka kerja ini (oh - React adalah perpustakaan, tolong jangan nyalakan saya) memungkinkan Anda menciptakan pengalaman pengguna yang sangat menarik di aplikasi web Anda karena semuanya dikontrol melalui JavaScript. Itu memungkinkan Anda untuk membuat ulang bagian halaman (atau keseluruhan halaman) setelah dimuat. Ini menghemat pemuatan ulang halaman yang tidak perlu dan meminta siklus tanggapan <-> dengan server. Pengalaman pengguna aplikasi seluler seperti aplikasi seluler adalah hasilnya - dan kami semua menginginkan pengalaman pengguna yang hebat, bukan?
-
-Tepatnya, jika Anda merender ulang keseluruhan layar dan karenanya membuat ilusi memuat halaman yang berbeda, Anda membuat Aplikasi Halaman Tunggal (SPA) yang disebut satu kali (hanya satu halaman (index.html) yang dimuat dan sepertinya aplikasi web menghosting banyak halaman.
-
-Semakin banyak aplikasi web dibuat sebagai SPA karena itu benar-benar menghadirkan perasaan seperti aplikasi seluler ke layar pengguna Anda. Tetapi bahkan jika Anda hanya mengendalikan sebagian halaman yang diberikan oleh server Anda dengan kerangka kerja ini (kecuali Sudut, itu benar-benar hanya bagus untuk menciptakan SPA), Anda dapat meningkatkan pengalaman pengguna karena Anda dapat menerapkan elemen dinamis seperti kameramen atau akordeon gambar. .
-
-Anda bisa melakukan ini di masa lalu, dengan jQuery misalnya, tapi dengan React, Angular and Vue, itu menjadi lebih mudah dan lebih kuat.
-
-Satu tren yang relatif baru yang mungkin akan mempercepat pada tahun 2018 adalah rendering pra-rendering atau server-side dari SPA. Itu berarti aplikasi Anda masih dikendalikan oleh JavaScript dan berjalan di browser namun Anda juga melayani versi pra-render aplikasi pada muatan pertama. Ini meningkatkan SEO (karena perayap melihat apa yang pengguna lihat, tanpa harus menunggu beberapa konten yang dimuat secara asinkron) dan dapat mempercepat aplikasi Anda.
-
-Anda mungkin ingin melihat proyek seperti Next.js for React, Angular Universal for Angular atau Nuxt.js untuk Vue.js - mereka semua fokus untuk mempermudah ini.
-
-Pengguna mungkin terus menyukai aplikasi web yang menarik, sehingga kerangka kerja frontend seperti Angular, React atau Vue.js akan tetap penting di tahun 2018. Jika Anda datang mencari pemenang, saya harus mengecewakan Anda sekalipun.
-
-Ketiga kerangka kerja itu terlihat bagus saat ini. Anda dapat menemukan perbandingan (sangat berpendirian!) Di sini tapi akhirnya, saya sarankan menyelam ke semuanya (paling tidak sedikit) dan kemudian memilih favorit Anda. -->
+<blockquote>
+<p>React, Angular dan Vue.Js adalah framework yang digunakan untuk client-side atau yang juga biasa disebut front-end dengan menggunakan basis bahasa javasript, tetapi react tidak bisa dikatakan sebagai framework, lebih tepatnya adalah library.Ketiga hal di atas menciptakan pengalaman pengguna/user experience yang sangat menarik untuk aplikasi web kamu karena semuanya dikontrol dengan JavaScript. Pengguna mungkin terus menyukai aplikasi web yang menarik, sehingga kerangka kerja frontend seperti Angular, React atau Vue.js akan tetap penting di tahun 2018. Mempelajari salah satu atau semuanya akan menjadi ide yang sangat bagus. Mereka memungkinkan dirimu untuk belajar tentang web developmnet dan menciptakan web yang bagus dengan interface yang interaktif</p>
+</blockquote>
 <blockquote>
 <h1 id="TREND-4-Web-Components-amp-Component-Compilers"><a href="#TREND-4-Web-Components-amp-Component-Compilers" class="headerlink" title="TREND #4: Web Components &amp; Component Compilers"></a><span style="color:indianred">TREND #4: Web Components &amp; Component Compilers</span></h1></blockquote>
 <p><img src="https://scontent.fcgk6-1.fna.fbcdn.net/v/t1.0-9/29067023_345422179292503_7477084724242939904_n.jpg?oh=ef6731ed2c0d0ba847b4166b1787bde5&amp;oe=5B084251" alt=""></p>
-<!-- > Tren # 1 sampai # 3 mungkin sudah tentang hal-hal yang sudah Anda miliki baru. Komponen Web (dan alat yang mengkompilasi Komponen Web seperti Stensil kurang dikenal dan hyped.
-
-Gagasan di balik komponen web itu sederhana: Mengapa kita harus menggunakan perpustakaan seperti React untuk membangun komponen yang hanya berfungsi di perpustakaan itu dan tidak hanya membangun komponen ini dengan vanilla JavaScript dan menggunakannya juga di luar kerangka kerja?
-
-Sampai akhir 2017, dukungan browser adalah masalah yang lebih besar namun pada awal 2018, ini terlihat lumayan. Empat API Web yang membentuk komponen web - Unsur Khusus, DOM Shadow, Template HTML dan Impor HTML - didukung oleh semua browser utama.
-
-Terutama dua elemen pertama - Custom Elements dan Shadow DOM - adalah API Web yang sangat menarik.
-
-Dengan elemen khusus, Anda dapat melakukan seperti apa rasanya: Buat elemen HTML Anda sendiri (misalnya <my-image-carousel>). Unsur-unsur ini berisi semua kode yang dibutuhkan untuk membawa sesuatu ke layar - tidak ada kerangka kerja yang dibutuhkan! Dan bahkan lebih baik dari itu: Anda dapat menggunakan elemen ini dalam hubungannya dengan kerangka kerja seperti Sudut, jika Anda memerlukan beberapa fungsi kerangka lainnya (yaitu di luar kemampuannya untuk menciptakan komponen yang dapat digunakan kembali).
-
-Jenis DOM Bayangan dibangun di atasnya dan memungkinkan Anda juga menampilkan beberapa gaya CSS tertentu ke elemen khusus Anda. Ini memberi Anda elemen HTML yang benar-benar dapat digunakan kembali.
-
-Template HTML memungkinkan Anda untuk menentukan kode HTML (menggunakan elemen 'normal' atau elemen khusus lainnya) di dalam elemen khusus Anda. Impor HTML akan memungkinkan Anda mengimpor file HTML ke dalam file HTML, standar ini sangat berat, namun sebenarnya tidak diperlukan karena kami biasanya menggunakan alat dan bundling seperti anyel anyaman Webpack.
-
-Membangun komponen web / elemen kustom secara manual bisa menjadi sangat rumit seperti ditunjukkan contoh ini.
-
-Karena itulah komponen-kompiler seperti StencilJS terlihat sangat menjanjikan. Elemen Sudut akan menjadi proyek lain yang memungkinkan Anda menggunakan sintaks yang lebih bagus untuk kemudian secara otomatis mengkompilasinya ke komponen web asli.
-
-Ide inti di balik proyek ini adalah memberi Anda sintaks yang bagus dan banyak pembantu - Stensil menggunakan fitur TypeScript, JSX dan Angular, Elemen Sudut menggunakan Sudut - untuk membuat komponen web kustom. Kode Anda kemudian akan dikompilasi ke vanilla JavaScript, sehingga Anda dapat menggunakan komponen yang dibuat di halaman web manapun.
-
-Anda tidak perlu menggunakan kerangka kerja tertentu atau semacamnya.
-
-Kita dapat benar-benar bersemangat tentang komponen web karena menggunakannya memberi kita banyak kemungkinan untuk mengurangi ukuran bundel kita (Anda mungkin bisa membuat halaman web tanpa kerangka kerja apapun!). Selain itu, elemen khusus ini sangat dapat digunakan kembali di seluruh proyek. Kedengarannya seperti mimpi bagiku. -->
+<blockquote>
+<p>Ide pada web components itu sederhana yaitu untuk membangun komponen yang hanya berfungsi di library itu sendiri, sedangkan dengan menggunakan vanilla JavaScript dapat membangun komponene web yang juga dapat digunakan luar framework.</p>
+</blockquote>
 <blockquote>
 <h1 id="TREND-5-Use-Static-Page-Generators"><a href="#TREND-5-Use-Static-Page-Generators" class="headerlink" title="TREND #5: Use Static Page Generators"></a><span style="color:indianred">TREND #5: Use Static Page Generators</span></h1></blockquote>
 <p><img src="https://scontent.fcgk6-1.fna.fbcdn.net/v/t1.0-0/29177145_345422955959092_1639608163294511104_o.jpg?oh=d3b66fb8205707bdab98359094f114cd&amp;oe=5B3ECB5B" alt=""></p>
-<!-- > Performa menang, di tahun 2018 lebih dari sebelumnya.
-
-Kami harus membuat aplikasi web kami untuk perangkat yang lebih banyak dan lebih berbeda, yang menjangkau laman web kami dari semua jenis tempat dengan segala jenis konektivitas. Pengiriman banyak JavaScript yang hanya mulai memuat konten kami setelah diunduh menjadi kurang dan kurang pilihan.
-
-Selain itu, SEO jelas penting namun crawler mesin pencari tidak mengerti konten yang dimuat secara asynchronous (yaitu konten yang hanya dimuat dan renderer SETELAH pemuatan halaman pertama karena diambil dari beberapa server). Dan dengan semakin banyak aplikasi yang dibuat dengan cara tanpa server, kami mungkin juga tidak tertarik untuk merender sisi server laman kami.
-
-Bagaimana semua hal ini sesuai? Bagaimana kita menyajikan versi halaman web yang telah ditentukan sebelumnya tanpa secara dinamis melakukan pra-render di beberapa server (seperti yang kita lakukan selama 20 tahun terakhir)?
-
-Jawabannya adalah Generator Halaman Statis seperti Jekyll, Hugo atau proyek seperti Nuxt.js untuk Vue.js (ini terinspirasi oleh Next.js for React). Semua alat dan proyek ini memungkinkan kita melakukan satu hal: Buatlah halaman web yang kemudian kita buat di server lokal kita atau beberapa server build. Kami kemudian menyebarkan sekumpulan file statis - HTML, CSS dan JavaScript. Selesai!
-
-Oke, Nuxt.js dan Next.js tidak berfokus pada hal itu, Anda juga bisa menggunakannya untuk merender SPA secara dinamis di server. Tapi tetap saja, fungsionalitas pembuatan halaman statis juga disertakan di sana.
-
-Keuntungan besar menggunakan alat tersebut adalah kami bisa mengirimkan halaman yang telah dirender sementara masih bisa mengikuti pendekatan tanpa server. Kami akan menjadi orang yang optimis dan optimis dengan menghemat biaya!
-
-Satu hal yang perlu diingat: Jika Anda membangun halaman yang menampilkan 10 dari 1000 halaman, pra-menghasilkan semuanya, mungkin beberapa kali per hari, bisa menjadi masalah.
-
-Itulah kelemahannya: Jika Anda mengubah sesuatu sekitar satu halaman atau data yang termasuk dalam satu halaman, Anda harus mengembalikannya kembali (karena alatnya tidak tahu apa yang Anda ubah). Yang sedang berkata, penting untuk menyoroti bahwa hal tersebut menghasilkan menyala-cepat jadi ini mungkin tidak akan pernah menjadi masalah nyata bagi Anda.
-
-Selain itu, Anda dapat menyempurnakan halaman yang Anda berikan dengan juga menyertakan beberapa fungsi pembaruan asinkron - yaitu kode yang memeriksa versi terbaru SETELAH halaman Anda telah dimuatkan ke browser pengguna Anda. -->
+<blockquote>
+<p>Trend berikutnya di tahun 2018 adalah Penggunaaan Static Page Generator, Static Page Generator adalah aplikasi statis yang memungkinkan kita untuk membuat halaman web pada server lokal atau pun built-in server yang berisikan Html,Css dan Javasript. Keuntungan dari Static Page generator adalah, karena sudah multi platform dan juga dapat menggunakan markdown. Contoh beberapa Generator Static Page adalah Jekyll, Hugo, Nuxt.js dan lain-lain</p>
+</blockquote>
 <blockquote>
 <h1 id="TREND-6-Progressive-Web-Apps-PWAs"><a href="#TREND-6-Progressive-Web-Apps-PWAs" class="headerlink" title="TREND #6: Progressive Web Apps (PWAs)"></a><span style="color:indianred">TREND #6: Progressive Web Apps (PWAs)</span></h1></blockquote>
 <p><img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/29028199_345423669292354_2464828568069210112_n.jpg?oh=202d61aa5695961cbd508ef689163629&amp;oe=5B42CDF2" alt=""></p>
-<!-- > Progressive Web Apps (PWA) is a term that sums up a couple of technologies that allow us to build web apps that behave (and feel) a lot like native mobile apps.
-
-That mostly includes offline functionality (i.e. parts of the web app work without an active connection - after the web app has been loaded at least once), installability (i.e. the web app can be added to the device homescreen) and the usage of native device features (like accessing the device camera).
-
-Okay, that's all nice but why wouldn't we just build a native app then?
-
-Because this has two major disadvantages: The fact that you have to learn two languages (Java/ Android and Swift/ObjectiveC) and that you're reach is highly limited. Building a mobile app always sounds fun and awesome until you release it and you notice that no one downloads it.
-
-The average user installs zero (yes 0) new apps every month!
-
-That's not too much, is it? On the other hand, people search for things on Google all the time. And they find: Your web app. Bingo, that's why it's a good idea to bring the best from both worlds - exactly what a PWA does.
-
-That alone would be awesome already but it's the 'progressive' part that makes this technology amazing. You don't have to go all-in on PWA features, you can instead simply implement what you need the most. Want an installable web app? Focus on that, it's as easy as that.
-
-So which technologies am I talking about then? Mostly Service Workers and the Web App Manifest (manifest.json file).
-
-Service Workers allow you to control a special browser cache, hence giving you the power to pre-cache certain assets and define when they should be loaded from cache and in which cases the network should be used.
-
-The manifest.json file on the other hand provides useful meta information about your app to the browser, allowing the app to be installed on the homescreen.
-
-There's of course way more to it and you can dive into my Complete Guide on PWAs if you want to learn more about this awesome technology. -->
+<blockquote>
+<p>Progressive Web Apps (PWA) merupakan istilah yang mencakup beberapa teknologi yang memungkinkan untuk membuat aplikasi web yang berperilaku sangat mirip dengan aplikasi mobile.</p>
+</blockquote>
+<blockquote>
+<p>Keuntungannya adalah karena mencakup fungsi offline (misalnya, bagian dari aplikasi web yang dapat berfungsi tanpa koneksi Asalkan telah  dimuat satu kali) penggunaan perangkat asli fitur (seperti mengakses kamera perangkat).</p>
+</blockquote>
+<blockquote>
+<p>Kekurangannya adalah kamu harus mempelajari dua bahasa (Java / Android dan Swift / ObjectiveC) dan jangkauannya punan terbatas. </p>
+</blockquote>
 <blockquote>
 <h1 id="TREND-7-Build-Serverless-Apps"><a href="#TREND-7-Build-Serverless-Apps" class="headerlink" title="TREND #7: Build Serverless Apps"></a><span style="color:indianred">TREND #7: Build Serverless Apps</span></h1></blockquote>
 <p><img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/29066710_345424672625587_162341186739109888_n.jpg?oh=d0f72552f03730d9c9ef7af4432e1a76&amp;oe=5B02200B" alt=""></p>
-<!-- > Serverless. What does that even mean? How should a web page without servers work?
-
-The answer is simple: It doesn't. But the term Serverless refers to something different.
-
-Serverless means that you don't have to worry about managing and updating servers, that your server capacities scale infinitely and that you still only pay for what you need. No visitors no (or almost no) costs. It's that easy.
-
-How does that work?
-
-You only write your code that should run on-demand (e.g. when a user subscribes to your newsletter), upload it to some serverless service (e.g. AWS Lambda), maybe add some additional services (e.g. AWS API Gateway to easily build a serverless REST API) and you deploy your static assets to some static host like AWS S3.
-
-That's it, your app/ code now only runs when needed, i.e. when a user is interacting with it, and you therefore don't pay for any idle time. Additionally, you don't need to worry about configuring your server correctly because there is no server.
-
-To me, this sounds pretty good, so it's no wonder that serverless is a hot topic and it's going to stay hot for 2018.
-
-Whilst a lot of groundwork was done over the last years, we now got more and more tools to build amazing serverless apps (e.g. the Serverless Framework) and with that DevOps is becoming easier/ better for Serverless, too. It should also be noted that whilst Amazon Web Services (AWS) is a strong innovator in that area, we now got more and more companies offering serverless services - both Microsoft Azure as well as the Google Cloud have serverless services.
-
-So overall, the development of serverless apps becomes more enjoyable, testing becomes easier and more and more resources for learning how to build serverless web apps become available. I also got a course on that. -->
+<p>Serverless bukan berarti tidak menggunakan server sama sekali, namun menggunakan server hanya jika diperlukan saja, sehingga tidak perlu khawatir mengelola dan memperbarui server. Space pada server pun akan menjadi lebih banyak. Biaya yang dikeluarkan pun lebih sedikit karena tidak perlu membayar saat dalam keaadan idle.</p>
 <blockquote>
 <h1 id="TREND-8-Artificial-Intelligence-and-Bots"><a href="#TREND-8-Artificial-Intelligence-and-Bots" class="headerlink" title="TREND #8: Artificial Intelligence and Bots"></a><span style="color:indianred">TREND #8: Artificial Intelligence and Bots</span></h1></blockquote>
 <p><img src="https://scontent.fcgk6-1.fna.fbcdn.net/v/t1.0-9/29177299_345425432625511_6426026392059641856_n.jpg?oh=1c87c17b01dbc34739cf08b28e93839f&amp;oe=5B0249B8" alt=""></p>
-<!-- > Oke, Anda pasti sudah sedih jika tidak disertakan, bukan?
-
-Mungkin tidak ada topik yang lebih disukai daripada Inteligensi Buatan (AI) dan bot akhir-akhir ini.
-
-Tapi sejujurnya: Ini adalah topik hangat dan AI akan menjadi lebih dan lebih penting selama tahun depan - termasuk tahun 2018.
-
-AI TIDAK terbatas pada mobil self-driving. Pikirkan tentang chat bots di laman Anda yang membantu pengguna memahami konten Anda. Pertimbangkan alat pengenalan gambar dan pengoptimalan. Dan seterusnya.
-
-Ada banyak use-cases untuk komponen AI-driven di halaman web. Kami hanya menyelam ke era itu tapi tidak ada salahnya menjadi orang pertama yang menyelam ke hal-hal baru yang akan bertahan.
-
-AI adalah bidang yang luas sekalipun. Anda bisa menyelam ke Python, Machine Learning, Big Data, Deep Learning dan membangun alat AI sendiri. Jika Anda menguasai semua itu, Anda akan memiliki masa emas di depan Anda;).
-
-Namun, untuk penggunaan lainnya, kami dapat menyelami lebih banyak alat yang memungkinkan kami menerapkan layanan AI ke semua jenis aplikasi dan model bisnis tanpa persyaratan menjadi ahli AI.
-
-Pertimbangkan alat seperti AWS Lex, layanan yang memungkinkan Anda membangun bots obrolan cerdas yang dapat Anda terapkan ke halaman Anda. Alat seperti ini membuat AI dapat diakses oleh kita semua dan memungkinkan Anda untuk berfokus pada ide dan logika bisnis Anda. Dan kita akan melihat banyak alat seperti ini muncul (dan menjadi lebih baik) di tahun 2018 - oleh karena itu ini adalah tren yang mungkin tidak ingin Anda lewatkan. -->
-<blockquote>
-<h1 id="Summary"><a href="#Summary" class="headerlink" title="#Summary"></a><span style="color:indianred">#Summary</span></h1></blockquote>
+<p>AI adalah bidang yang luas  Kamu bisa menyelam ke Python, Machine Learning, Big Data, Deep Learning dan membangun alat AI sendiri. Jika Kamu menguasai semua itu, Kamu akan memiliki masa emas di depan Kamu.<br>Namun, untuk penggunaan lainnya, kami dapat menyelami lebih banyak alat yang memungkinkan kami menerapkan layanan AI ke semua jenis aplikasi dan model bisnis tanpa persyaratan menjadi ahli AI.<br>Pertimbangkan alat seperti AWS Lex, layanan yang memungkinkan Kamu membangun bots obrolan cerdas yang dapat Kamu terapkan ke halaman Kamu. Alat seperti ini membuat AI dapat diakses oleh kita semua dan memungkinkan Kamu untuk berfokus pada ide dan logika bisnis Kamu. Dan kita akan melihat banyak alat seperti ini muncul (dan menjadi lebih baik) di tahun 2018 - oleh karena itu ini adalah tren yang mungkin tidak ingin Kamu lewatkan.</p>
+<!-- > # <span style="color:indianred">#Summary</span> -->
 <!-- > Sepanjang artikel ini (dan video) saya melihat hal-hal yang saya anggap penting di tahun 2018.
 
 Apakah ini semua yang harus kamu pelajari?
@@ -251,7 +154,52 @@ Mungkin tidak pernah ada dunia yang lebih kompleks (dalam pengembangan web) tapi
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/03/12/DEV WEB TREND 2018/" data-id="cjenmnl4i00008su2zmbwjx3b" class="article-share-link">Compartir</a>
+      <a data-url="http://yoursite.com/2018/03/12/DEV WEB TREND 2018/" data-id="cjenlilo50002iku27glohlsg" class="article-share-link">Teilen</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/03/08/hello-world/" class="article-date">
+  <time datetime="2018-03-08T16:56:10.755Z" itemprop="datePublished">2018-03-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/08/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/03/08/hello-world/" data-id="cjei7tuck0000ksu2tjqf12kw" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -338,52 +286,7 @@ Mungkin tidak pernah ada dunia yang lebih kompleks (dalam pengembangan web) tapi
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/03/08/GIT - SIMPLE GUIDE/" data-id="cjenmnl4m00018su2bm8o6tlw" class="article-share-link">Compartir</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/03/08/hello-world/" class="article-date">
-  <time datetime="2018-03-08T07:50:42.151Z" itemprop="datePublished">2018-03-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/03/08/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/03/08/hello-world/" data-id="cjei7tuck0000ksu2tjqf12kw" class="article-share-link">Compartir</a>
+      <a data-url="http://yoursite.com/2018/03/08/GIT - SIMPLE GUIDE/" data-id="cjenlh9vy0000iku2dz02ucff" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -409,7 +312,7 @@ Mungkin tidak pernah ada dunia yang lebih kompleks (dalam pengembangan web) tapi
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archivos</h3>
+    <h3 class="widget-title">Archiv</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li></ul>
     </div>
@@ -419,7 +322,7 @@ Mungkin tidak pernah ada dunia yang lebih kompleks (dalam pengembangan web) tapi
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Posts recientes</h3>
+    <h3 class="widget-title">letzter Beitrag</h3>
     <div class="widget">
       <ul>
         
@@ -428,11 +331,11 @@ Mungkin tidak pernah ada dunia yang lebih kompleks (dalam pengembangan web) tapi
           </li>
         
           <li>
-            <a href="/2018/03/08/GIT - SIMPLE GUIDE/">Git - Simple Guide</a>
+            <a href="/2018/03/08/hello-world/">Hello World</a>
           </li>
         
           <li>
-            <a href="/2018/03/08/hello-world/">Hello World</a>
+            <a href="/2018/03/08/GIT - SIMPLE GUIDE/">Git - Simple Guide</a>
           </li>
         
       </ul>
@@ -448,7 +351,7 @@ Mungkin tidak pernah ada dunia yang lebih kompleks (dalam pengembangan web) tapi
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2018 John Doe<br>
-      Construido por <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
